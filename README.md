@@ -115,30 +115,30 @@ In this instance, I consider each classification a box on a checklist. That is: 
 
 Therefore, I will use this model to map to the solutions I use to manage that section.
 
-Projects: Trello
-Ideas: Notes App
-Entities: Contacts/Email App
-Concepts: Notes App
-Environments: Notes App
-Objects: Storage garage
-Formulas: Notes App / Recipe book
-Places: Maps App
-I???: ???
-Events: Calendar App
+- Projects: Trello
+- Ideas: Notes App
+- Entities: Contacts/Email App
+- Concepts: Notes App
+- Environments: Notes App
+- Objects: Storage garage
+- Formulas: Notes App / Recipe book
+- Places: Maps App
+- I???: ???
+- Events: Calendar App
 
 ### Business Organization
 It may be helpful for an IT department to map out a similar list as above for the employees of their company.
 
-Projects: JIRA
-Ideas: Confluence
-Entities: Microsoft Outlook + Active Directory
-Concepts: Confluence
-Environments: Confluence
-Objects: Amazon S3, local hard drive storage, on-site storage
-Formulas: Confluence, physical documentation
-Places: Facilities Dept, Google Maps
-I???: ???
-Events: Microsoft Outlook, Microsoft Teams
+- Projects: JIRA
+- Ideas: Confluence
+- Entities: Microsoft Outlook + Active Directory
+- Concepts: Confluence
+- Environments: Confluence
+- Objects: Amazon S3, local hard drive storage, on-site storage
+- Formulas: Confluence, physical documentation
+- Places: Facilities Dept, Google Maps
+- I???: ???
+- Events: Microsoft Outlook, Microsoft Teams
 
 ---
 
