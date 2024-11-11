@@ -4,10 +4,9 @@ This is an experimental documentation classification model for long-term documen
 
 ---
 
-## Breakdown
 *'Piece of Pie'* is an anagram, and each of the letters represents a documentation classification.
 
-### P: Project
+## P: Project
 A **project** is defined as an ongoing effort to reach a defined goal or conclusion. It is also defined as a "realized idea".
 
 Examples:
@@ -16,7 +15,7 @@ Examples:
 
 *For those versed in Agile methodology, you'll typically work on story cards or bug cards as projects.*
 
-### I: Idea
+## I: Idea
 An **idea** is defined as a thought or note that may be actionable. It is also defined as an "unrealized project".
 
 Examples:
@@ -30,7 +29,7 @@ Examples:
 
 *For those versed in Agile methodology, you'll typically convert ideas into projects during refinement and sprint planning meetings.*
 
-### E: Entity
+## E: Entity
 An **entity** is defined as a person, group of persons, living thing(s), etc. In simpler terms, an individual or group that can be personalized with a name or id can be considered an entity.
 
 Examples:
@@ -41,7 +40,7 @@ Examples:
 
 *You may be so inclined to include inanimate objects in this description. Personally, I don't consider my coding companion duck "Roger" an entity, nor my SUV identified by vin, but I leave the details up to you.*
 
-### C: Concept
+## C: Concept
 A **concept** is an abstract representation of a shared definition. It can also be defined as a 'non-existent object'.
 
 TODO: I would like a better description for this. If anyone has any ideas, please let me know!
@@ -51,7 +50,7 @@ Examples:
 - Agile methodology
 - Functional programming vs OOP
 
-### E: Environment
+## E: Environment
 An **environment** is a descriptor for use of a place, object(s), etc. This class is more "loosey-goosey" than most others, and can be left open to interpretation.
 
 Examples:
@@ -65,7 +64,7 @@ Examples:
 
 *This was the original inspiration for pieceofpie.*
 
-### O: Object
+## O: Object
 An **object** is a thing. Really. If it can be described as a thing to be interacted with, it can most likely be described as an object.
 
 Examples:
@@ -77,14 +76,14 @@ Examples:
 
 *This is probably the most open-ended class in this list. It will be extended later.*
 
-### F: Formula
+## F: Formula
 A **formula** is a step-by-step process for completing a task.
 
 Example:
 - A chili recipe
 - How to deploy a server to a VPS
 
-### P: Place
+## P: Place
 A **place** is a physical or non-physical location, such as an office building or a website.
 
 Examples:
@@ -93,10 +92,10 @@ Examples:
 - github.com
 
 *Whether a website is considered a 'place' is currently in debate, but at the moment it is.*
-### I: ???
+## I: ???
 Unknown at the moment
 
-### E: Event
+## E: Event
 An **event** is a representation of a time-stamped happening. For most things with a time element, an event will most likely be used.
 
 Examples:
