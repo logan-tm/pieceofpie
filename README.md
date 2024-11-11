@@ -2,6 +2,8 @@
 
 This is an experimental documentation classification model for long-term documentation. It is meant to be used by developers and businesses, but can also be used personally for organizational purposes.
 
+This is a ***work in progress***. If you would like to contribute, please contact me!
+
 ---
 
 *'Piece of Pie'* is an anagram, and each of the letters represents a documentation classification.
@@ -139,6 +141,56 @@ It may be helpful for an IT department to map out a similar list as above for th
 - Places: Facilities Dept, Google Maps
 - I???: ???
 - Events: Microsoft Outlook, Microsoft Teams
+
+## Advanced Use Cases
+
+As this model increases in complexity, so will the capabilities of the usage of this model. It should be a staple of this model in the future to have parent/child class instances, sub classes, and relationship pointers. Those familiar with Object Oriented Programming and software such as Confluence and Obsidian will benefit greatly from this.
+
+By the way: the keyword 'instance' describes an instance of the class. For example, an apple is an instance of an Object, and so is a rock. My birthday is an instance of an event.
+
+### Parent and Child Class Instances
+Above in the environment definition, I mentioned that the original reason for this model was to compartmentalize my life into "buckets" that retain information and access relevant to the environment I was currently in, such as "Personal", "Work", and the like. To fully bring that idea to life, some class instances must be contained within others, which is where the organization is derived from in this model.
+
+Using the "buckets" as an example, I may organize my documentation in such a way (represented by pseudo XML):
+
+```xml
+<Environment name="Work">
+  <ObjectList name="Applications">
+    <Object>Microsoft Teams</Object>
+    <Object>Slack</Object>
+  </ObjectList>
+  <ObjectList name="Accounts">
+    <Object>logan@work.com</Object>
+  </ObjectList>
+</Environment>
+  
+<Environment name="Personal">
+  <ObjectList name="Applications">
+    <Object>Facebook</Object>
+    <Object>YouTube</Object>
+  </ObjectList>
+  <ObjectList name="Accounts">
+    <Object>logan@home.com</Object>
+  </ObjectList>
+</Environment>
+```
+
+*You may also note that I use an `ObjectList` pseudo code. Parents may also simply be a container or list of multiple class instances for better organization.*
+
+### Sub-classes
+Since this model is meant to be a scaffold for your documentation strategy, it may be in your best interest to ***extend*** the definition of a class into a sub-class.
+
+For instance, perhaps your documentation is heavily centered around maintaining cloud EC2 machines. It would be beneficial then to create a sub-class with specific variables for future use in documenting machines.
+
+It's unknown at the moment what this looks like programatically, but it would look something like this (represented by Python):
+```python
+from pieceofpie import Object
+
+class Machine(Object):
+  def __init__(self, details):
+    super().__init__()
+    self.details = details
+```
 
 ---
 
